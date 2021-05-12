@@ -13,9 +13,9 @@ from pyrogram.errors import (
 )
 
 API_TEXT = """Hi, {}. 😉
-✨This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.✨
-👉 By your beloved @avika_5555 and @mrdark_genuine 💗🔥
-Now send your `API_ID` to Start Generating Session."""
+This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.
+⬜ By your beloved @BLACK_GENUINE , @Saskuke_Uchicha
+Now send your `API_ID` to Start Generating Pyrogram string Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
@@ -144,7 +144,7 @@ async def restart(_, msg: Message):
 async def restart(_, msg: Message):
     out = f"""
 Hi, {msg.from_user.mention}. This is Pyrogram Session String Generator Bot. \
-I will give you `STRING_SESSION` for your UserBot.
+I will give you `STRING_SESSION` for your TELEGRAM APP CLIENTS MADE WITH PYROGRAM.
 It needs `API_ID`, `API_HASH`, Phone Number and One Time Verification Code. \
 Which will be sent to your Phone Number.
 You have to put **OTP** in `1 2 3 4 5` this format. __(Space between each numbers!)__
@@ -153,11 +153,11 @@ Must Join Channel for Bot Updates !!
 """
     reply_markup = InlineKeyboardMarkup(
         [
+            
+    
+
             [
-                InlineKeyboardButton('Developer', url='https://t.me/Avika_5555')
-            ],
-            [
-                InlineKeyboardButton('Contributor', url='https://t.me/mrdark_genuine'),
+                InlineKeyboardButton('PROGRAMER', url='https://t.me/Saskuke_Uchicha'),
             ]
         ]
     )
