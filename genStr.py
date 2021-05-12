@@ -12,22 +12,20 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi,{}🙏
-This is Pyrogram's String Session Generator.
- By   InlineKeyboardMarkup(
+API_TEXT = """reply_markup =  InlineKeyboardMarkup(
         [
             
     
 
             [
-                InlineKeyboardButton('PROGRAMER', url='https://t.me/Saskuke_Uchicha'),
+                InlineKeyboardButton('Pyrogram session Genarator bot \n my creator ', url='https://t.me/Saskuke_Uchicha'),
             ]
         ] @Saskuke_Uchicha
 Now send your `API_ID` to Start Generating Pyrogram string Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
-    "Including Country code. Example: **+14154566376**\n\n"
+    "Including Country code. Example: **+91 1234567890**\n\n"
     "Press /cancel to Cancel Task."
 )
 
