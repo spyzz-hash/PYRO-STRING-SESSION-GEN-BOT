@@ -12,11 +12,7 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = reply_markup = InlineKeyboardMarkup(
-    [
-        [InlineKeyboardButton("Hi{}🙏 please send your `APP_ID` to continue \n My creator", url="https://t.me/Saskuke_Uchicha")],
-    ]
-)
+API_TEXT = """hello {} This is a PyroString session Gen bot send your `APP_ID` to continue"""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
@@ -149,8 +145,7 @@ I will give you `STRING_SESSION` for your TELEGRAM APP CLIENTS MADE WITH PYROGRA
 It needs `API_ID`, `API_HASH`, Phone Number and One Time Verification Code. \
 Which will be sent to your Phone Number.
 You have to put **OTP** in `1 2 3 4 5` this format. __(Space between each numbers!)__
-**NOTE:** If bot not Sending OTP to your Phone Number than send /restart Command and again send /start to Start your Process. 
-Must Join Channel for Bot Updates !!
+**NOTE:** If bot not Sending OTP to your Phone Number than send /restart Command and again send /start to Start your Process.
 """
     reply_markup = InlineKeyboardMarkup(
         [
