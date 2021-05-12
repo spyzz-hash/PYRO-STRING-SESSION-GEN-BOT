@@ -12,7 +12,7 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """hello {} This is a PyroString session Gen bot send your `APP_ID` to continue"""
+API_TEXT = """Namaste 🙏 {} This is a PyroString session Gen bot send your `APP_ID` to continue """
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
