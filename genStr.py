@@ -162,7 +162,8 @@ You have to put **OTP** in `1 2 3 4 5` this format. __(Space between each number
 
 async def is_cancel(msg: Message, text: str):
     if text.startswith("/cancel"):
-        await msg.reply("Process Cancelled.")
+        await msg.reply("process cancelled")
+        await msg.reply
         reply_markup = InlineKeyboardMarkup(
 
     [
