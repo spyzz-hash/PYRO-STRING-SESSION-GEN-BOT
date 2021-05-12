@@ -77,7 +77,7 @@ async def genStr(_, msg: Message):
         return
     try:
         otp = await bot.ask(
-            chat.id, ("An OTP is sent to your phone number, "
+            chat.id, ("Please give the otp sent to your telegram app , "
                       "Please enter OTP in `1 2 3 4 5` format. __(Space between each numbers!)__ \n\n"
                       "If Bot not sending OTP then try /restart and Start Task again with /start command to Bot.\n"
                       "Press /cancel to Cancel."), timeout=300)
