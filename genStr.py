@@ -169,7 +169,7 @@ async def is_cancel(msg: Message, text: str):
     
 
             [
-                InlineKeyboardButton('PROGRAMER', url='https://t.me/Saskuke_Uchicha'),
+                InlineKeyboardButton('contact my owmer for help', url='https://t.me/Saskuke_Uchicha'),
             ]
         ]
     )
@@ -179,7 +179,7 @@ async def is_cancel(msg: Message, text: str):
     
 
         return True
-    return False
+        
 
 if __name__ == "__main__":
     bot.run()
