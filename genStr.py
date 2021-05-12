@@ -12,7 +12,7 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = reply_markup = InlineKeyboardMarkup(
+reply_markup = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton("""Hi{}🙏 please send your `APP_ID` to continue \n My creator""", url="https://t.me/Saskuke_Uchicha")],
     ]
