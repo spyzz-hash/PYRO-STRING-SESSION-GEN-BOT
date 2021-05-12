@@ -12,8 +12,11 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = InlineKeyboardButton('Pyrogram session Genarator bot send `API_ID to start generating \n my creator ', url='https://t.me/Saskuke_Uchicha')
-
+API_TEXT = reply_markup = InlineKeyboardMarkup(
+    [
+        [InlineKeyboardButton("""Hi{}🙏 please send your `APP_ID` to continue \n My creator""", url="https://t.me/Saskuke_Uchicha")],
+    ]
+)
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
