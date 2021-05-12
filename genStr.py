@@ -12,9 +12,9 @@ from pyrogram.errors import (
     PhoneCodeInvalid, PhoneCodeExpired
 )
 
-API_TEXT = """Hi, {}. 😉
+API_TEXT = """Hi, {}. 
 This is Pyrogram's String Session Generator Bot. I will generate String Session of your Telegram Account.
-⬜ By your beloved @BLACK_GENUINE , @Saskuke_Uchicha
+ By  @BLACK_GENUINE , @Saskuke_Uchicha
 Now send your `API_ID` to Start Generating Pyrogram string Session."""
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
